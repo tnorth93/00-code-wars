@@ -1,5 +1,5 @@
-oddArr = [];
-cubedArr = [];
+let oddArr = [];
+let cubedArr = [];
 function cubeOdd(arr) {
   if (!arr.every(x => (typeof(x) === 'number'))) return undefined;
   if (arr.length < 1) return 0;
